@@ -64,7 +64,8 @@ public class MainActivity extends AppCompatActivity {
             base = sb.toString();
             tv.setText(base);
             isr.close();
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             e.printStackTrace();
         }
     }
